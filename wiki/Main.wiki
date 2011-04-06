@@ -1,0 +1,20 @@
+#summary Main
+
+= Introduction =
+
+See http://pspkox.wikia.com/wiki/SPMP8000_PSPKOX_Wiki for background info.
+
+= Hardware =
+
+As one of the first steps the hardware needs to be documented.
+
+  * Core
+  * Clock subsystem
+  * Interrupt controller
+  * GPIO
+  * UART
+  * I2C and I2C devices
+  * I2S and Codec
+  * SPI
+  * LCD
+  * 2D engine
