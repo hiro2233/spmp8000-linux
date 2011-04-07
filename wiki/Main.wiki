@@ -8,13 +8,21 @@ See http://pspkox.wikia.com/wiki/SPMP8000_PSPKOX_Wiki for background info.
 
 As one of the first steps the hardware needs to be documented.
 
+Memory Map (updated, based on [http://spmp8000.wikia.com/wiki/Memory_map 1])
+
+||0x0000.0000 - 0x00f0.0000||RAM||
+||0x9800.0000 - 0x9D7F.FFFF||Peripherials||
+||0x9D80.0000 - 0x9D80.8000||SRAM (32k)||
+||0xFFFF.0000 - 0xFFFF.7FFF||Boot ROM (32k)||
+
   * Core
   * Clock subsystem
   * Interrupt controller
-  * GPIO
+  * [GPIO]
   * UART
   * I2C and I2C devices
   * I2S and Codec
   * SPI
   * LCD
   * 2D engine
+  * TV encoder
