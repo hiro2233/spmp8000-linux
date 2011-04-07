@@ -1,0 +1,17 @@
+#summary GPIO ports
+
+The chip has multiple banks of GPIOs:
+
+|| *GPIO bank* || *Alternate functions* ||
+|| XGPIO 1..11 || none ||
+|| GPIO0 0..7 || UART, SPI, SD, Keymatrix ||
+|| GPIO1 0..15 ||LCD controller and I2S (probably not used) ||
+|| GPIO1 18 || PWM output ||
+|| GPIO1 22..23 || UART ||
+|| GPIO3 0..12 || UART, SD ||
+|| SAR_GPIO 0..3 || touch controller ADC ||
+
+
+This is how different devices use the GPIOs:
+
+|| GPIO num || Device usage ||
