@@ -4,11 +4,17 @@
 
 See http://pspkox.wikia.com/wiki/SPMP8000_PSPKOX_Wiki for background info.
 
+This project aims to add Linux support for the SPMP8000 SoC.
+
 = Hardware =
 
 As one of the first steps the hardware needs to be documented.
+The [http://alemaxx.al.funpic.de/spmp8000/SPMP8016A_ds.pdf short-form datasheet] gives some background info on what is actually present
+in the DoC.
 
-Based on the code, the following are the peripheral base addresses:
+== Peripherals ==
+
+Based on original firmware files, the following are the peripheral base addresses:
 
 
 ||0x9000.0000||Timer A||
