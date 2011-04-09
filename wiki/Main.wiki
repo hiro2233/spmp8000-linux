@@ -27,8 +27,8 @@ Based on original firmware files, the following are the peripheral base addresse
 ||0x9000.A000||[GPIO]||
 ||0x9000.B000||Real Time Clock||
 ||0x9053.2000||CEVA engine||
-||0x9001.0000||Vectored IRQ controller 0||
-||0x9002.0000||Vectored IRQ controller 1||
+||0x9001.0000||[VIC Vectored IRQ controller 0]||
+||0x9002.0000||[VIC Vectored IRQ controller 1]||
 ||0x9200.2000||Rotator||
 ||0x9200.6000||2D engine||
 ||0x9200.7000||Scale engine||
